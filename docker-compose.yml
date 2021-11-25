@@ -5,10 +5,10 @@ services:
     ports:
       - "8080:80"
     volumes: 
-     - nginx:/usr/share/nginx/html
+     - /root/data:/usr/share/nginx/html
+    depends_on: 
+      - bechtle-job
   bechtle-job:
     build: ./bechtle-job
     volumes: 
-      - nginx:/data
-volumes: 
-  nginx: {}
+      - /root/data:/data

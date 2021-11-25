@@ -1,0 +1,10 @@
+<html>
+<head>
+        <title>Test NGINX passed</title>
+</head>
+<body>
+<img src="logo-bechtle.png"> 
+<h1>NGINX is working</h1>
+</body>
+</html>
+
